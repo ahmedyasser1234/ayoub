@@ -10,35 +10,35 @@ const Safari = () => {
   const tours = [
     {
       id: 'single',
-      image: '/images/safari_single.png',
+      image: '/images/safari_single.webp',
       badge: 'Popular',
       duration: '3 hours',
       price: 'From $15'
     },
     {
       id: 'double',
-      image: '/images/safari_double.png',
+      image: '/images/safari_double.webp',
       badge: 'Best Value',
       duration: '3 hours',
       price: 'From $20'
     },
     {
       id: 'buggy2',
-      image: '/images/safari_buggy2.png',
+      image: '/images/safari_buggy2.webp',
       badge: 'Couples',
       duration: '4 hours',
       price: 'From $35'
     },
     {
       id: 'buggy4',
-      image: '/images/safari_buggy4.png',
+      image: '/images/safari_buggy4.webp',
       badge: 'Family',
       duration: '4 hours',
       price: 'From $50'
     },
     {
       id: 'dinner',
-      image: '/images/safari_dinner.png',
+      image: '/images/safari_dinner.webp',
       badge: 'Ultimate',
       duration: '6 hours',
       price: 'From $40'
@@ -51,7 +51,7 @@ const Safari = () => {
         title={t('seo.safari.title')}
         description={t('seo.safari.description')}
         keywords={t('seo.safari.keywords')}
-        image="/images/image.png"
+        image="/images/image.webp"
       />
       <div className="page-header safari-header">
         <div className="container">
@@ -111,12 +111,12 @@ const Safari = () => {
           <div className="safari-gallery-preview section" style={{ marginTop: '50px' }}>
             <h2 className="text-center mb-4">{t('nav.gallery')}</h2>
             <div className="grid grid-3" style={{ gap: '15px' }}>
-              <img src="/images/image copy 14.png" alt="Gallery 1" style={{ width: '100%', borderRadius: '15px', aspectRatio: '3/4', objectFit: 'cover' }} />
-              <img src="/images/image copy 15.png" alt="Gallery 2" style={{ width: '100%', borderRadius: '15px', aspectRatio: '3/4', objectFit: 'cover' }} />
-              <img src="/images/image copy 16.png" alt="Gallery 3" style={{ width: '100%', borderRadius: '15px', aspectRatio: '3/4', objectFit: 'cover' }} />
-              <img src="/images/image copy 2.png" alt="Gallery 4" style={{ width: '100%', borderRadius: '15px', aspectRatio: '3/4', objectFit: 'cover' }} />
-              <img src="/images/image copy 10.png" alt="Gallery 5" style={{ width: '100%', borderRadius: '15px', aspectRatio: '3/4', objectFit: 'cover' }} />
-              <img src="/images/image copy 11.png" alt="Gallery 6" style={{ width: '100%', borderRadius: '15px', aspectRatio: '3/4', objectFit: 'cover' }} />
+              <img src="/images/image copy 14.webp" alt="Gallery 1" style={{ width: '100%', borderRadius: '15px', aspectRatio: '3/4', objectFit: 'cover' }}  loading="lazy" decoding="async" />
+              <img src="/images/image copy 15.webp" alt="Gallery 2" style={{ width: '100%', borderRadius: '15px', aspectRatio: '3/4', objectFit: 'cover' }}  loading="lazy" decoding="async" />
+              <img src="/images/image copy 16.webp" alt="Gallery 3" style={{ width: '100%', borderRadius: '15px', aspectRatio: '3/4', objectFit: 'cover' }}  loading="lazy" decoding="async" />
+              <img src="/images/image copy 2.webp" alt="Gallery 4" style={{ width: '100%', borderRadius: '15px', aspectRatio: '3/4', objectFit: 'cover' }}  loading="lazy" decoding="async" />
+              <img src="/images/image copy 10.webp" alt="Gallery 5" style={{ width: '100%', borderRadius: '15px', aspectRatio: '3/4', objectFit: 'cover' }}  loading="lazy" decoding="async" />
+              <img src="/images/image copy 11.webp" alt="Gallery 6" style={{ width: '100%', borderRadius: '15px', aspectRatio: '3/4', objectFit: 'cover' }}  loading="lazy" decoding="async" />
             </div>
             <div className="text-center mt-4">
               <Link to="/gallery" className="btn btn-outline">{t('nav.gallery')}</Link>

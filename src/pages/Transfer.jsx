@@ -20,7 +20,7 @@ const Transfer = () => {
         title={t('seo.transfer.title')} 
         description={t('seo.transfer.description')} 
         keywords={t('seo.transfer.keywords')} 
-        image="/images/image.png" 
+        image="/images/image.webp" 
       />
       <div className="page-header transfer-header">
         <div className="container">

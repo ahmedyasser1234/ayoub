@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="footer-grid">
           {/* Logo & Slogan */}
           <div className="footer-brand">
-            <img src="/images/image.png" alt="Ayoub Safari Logo" className="logo-img" style={{ marginBottom: '20px' }} />
+            <img src="/images/image.webp" alt="Ayoub Safari Logo" className="logo-img" style={{ marginBottom: '20px' }} />
             <p className="slogan">{t('footer.slogan')}</p>
           </div>
           

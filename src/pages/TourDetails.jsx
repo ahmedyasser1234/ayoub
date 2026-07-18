@@ -19,27 +19,27 @@ const TourDetails = () => {
   // Safari tours mock database (to map images and base info, texts are from i18n)
   const safariToursData = {
     single: {
-      image: '/images/safari_single.png',
+      image: '/images/safari_single.webp',
       duration: '3 hours',
       price: '600'
     },
     double: {
-      image: '/images/safari_double.png',
+      image: '/images/safari_double.webp',
       duration: '3 hours',
       price: '700'
     },
     buggy2: {
-      image: '/images/safari_buggy2.png',
+      image: '/images/safari_buggy2.webp',
       duration: '4 hours',
       price: '1200'
     },
     buggy4: {
-      image: '/images/safari_buggy4.png',
+      image: '/images/safari_buggy4.webp',
       duration: '4 hours',
       price: '1600'
     },
     dinner: {
-      image: '/images/safari_dinner.png',
+      image: '/images/safari_dinner.webp',
       duration: '6 hours',
       price: '900'
     }
@@ -68,7 +68,7 @@ const TourDetails = () => {
         keywords={t('seo.safari.keywords')} 
         image={tourData.image} 
       />
-      <div className="tour-page-bg" style={{ backgroundImage: `url('/images/safari_hero_background.png')` }}></div>
+      <div className="tour-page-bg" style={{ backgroundImage: `url('/images/safari_hero_background.webp')` }}></div>
       {/* Hero Section */}
       <div className="tour-hero" style={{ backgroundImage: `url('${tourData.image}')` }}>
         <div className="tour-hero-content container">

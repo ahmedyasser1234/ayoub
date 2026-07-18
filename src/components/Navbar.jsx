@@ -50,7 +50,7 @@ const Navbar = () => {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="container nav-container">
         <Link to="/" className="logo" onClick={closeMenu}>
-          <img src="/images/image.png" alt="Ayoub Safari Logo" className="logo-img" />
+          <img src="/images/image.webp" alt="Ayoub Safari Logo" className="logo-img" />
         </Link>
 
         <div className="menu-icon" onClick={() => setIsOpen(!isOpen)}>

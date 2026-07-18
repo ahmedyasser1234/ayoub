@@ -15,7 +15,7 @@ const Home = () => {
         title={t('seo.home.title')} 
         description={t('seo.home.description')} 
         keywords={t('seo.home.keywords')} 
-        image="/images/image.png" 
+        image="/images/image.webp" 
       />
       {/* Hero Section */}
       <section className="hero">
@@ -41,7 +41,7 @@ const Home = () => {
           <div className="grid grid-2 tours-grid">
             {/* Safari Card */}
             <Link to="/safari" className="tour-card">
-              <div className="tour-image" style={{backgroundImage: "url('/images/atv_desert_mountains.png')"}}>
+              <div className="tour-image" style={{backgroundImage: "url('/images/atv_desert_mountains.webp')"}}>
                 <div className="tour-overlay"></div>
                 <div className="tour-badges">
                   <div className="badge-featured"><Star size={14}/> {t('home.tours.safari.badge')}</div>
@@ -62,7 +62,7 @@ const Home = () => {
 
             {/* Transfer Card */}
             <Link to="/transfer" className="tour-card">
-              <div className="tour-image" style={{backgroundImage: "url('/images/luxury_transfer.png')"}}>
+              <div className="tour-image" style={{backgroundImage: "url('/images/luxury_transfer.webp')"}}>
                 <div className="tour-overlay"></div>
                 <div className="tour-badges">
                   <div className="badge-featured"><Star size={14}/> {t('home.tours.transfer.badge')}</div>
@@ -150,7 +150,7 @@ const Home = () => {
             <Link to="/safari" className="btn btn-primary mt-4">{t('home.highlights.h1Btn')} <Arrow size={18}/></Link>
           </div>
           <div className="highlight-image">
-            <img src="/images/atv_desert_mountains.png" alt="Safari Adventure" />
+            <img src="/images/atv_desert_mountains.webp" alt="Safari Adventure"  loading="lazy" decoding="async" />
           </div>
         </div>
       </section>
@@ -175,7 +175,7 @@ const Home = () => {
             <Link to="/transfer" className="btn btn-primary mt-4">{t('home.highlights.h2Btn')} <Arrow size={18}/></Link>
           </div>
           <div className="highlight-image">
-            <img src="/images/luxury_transfer.png" alt="Custom Transfer" />
+            <img src="/images/luxury_transfer.webp" alt="Custom Transfer"  loading="lazy" decoding="async" />
           </div>
         </div>
       </section>
