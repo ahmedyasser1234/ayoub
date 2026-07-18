@@ -54,18 +54,86 @@ const Transfer = () => {
             </div>
           </div>
 
-          <div className="destinations-section section">
-            <h2 className="section-title">{t('transfer.destTitle1')} <span>{t('transfer.destTitle2')}</span></h2>
-            <div className="destinations-grid">
-              {destinations.map((dest, idx) => (
-                <div key={idx} className="destination-card">
-                  <MapPin className="dest-icon text-primary" size={28} />
-                  <div>
-                    <h3>{dest.name}</h3>
-                    <p>{dest.desc}</p>
-                  </div>
+          <div className="fleet-pricing-section section">
+            <h2 className="section-title text-center">{t('transfer.fleetTitle')}</h2>
+            <p className="text-center mb-5">{t('transfer.fleetDesc')}</p>
+
+            <div className="fleet-grid">
+              {/* Private Car Card */}
+              <div className="fleet-card">
+                <div className="fleet-img-container">
+                  <img src={`${import.meta.env.BASE_URL}images/sedan_private_car.png`} alt={t('transfer.privateCar')} className="fleet-img" />
                 </div>
-              ))}
+                <div className="fleet-info">
+                  <h3>{t('transfer.privateCar')}</h3>
+                  <p className="fleet-desc">{t('transfer.privateDesc')}</p>
+                  
+                  <table className="pricing-table">
+                    <thead>
+                      <tr>
+                        <th>{t('transfer.dest')}</th>
+                        <th>{t('transfer.pricePrivate')}</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>{t('transfer.destSharm')}</td>
+                        <td className="price-val">$25</td>
+                      </tr>
+                      <tr>
+                        <td>{t('transfer.destDahab')}</td>
+                        <td className="price-val">$80</td>
+                      </tr>
+                      <tr>
+                        <td>{t('transfer.destTaba')}</td>
+                        <td className="price-val">$120</td>
+                      </tr>
+                      <tr>
+                        <td>{t('transfer.destNuweiba')}</td>
+                        <td className="price-val">$130</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              {/* Minibus Card */}
+              <div className="fleet-card">
+                <div className="fleet-img-container">
+                  <img src={`${import.meta.env.BASE_URL}images/toyota_hiace_minibus.png`} alt={t('transfer.minibus')} className="fleet-img" />
+                </div>
+                <div className="fleet-info">
+                  <h3>{t('transfer.minibus')}</h3>
+                  <p className="fleet-desc">{t('transfer.minibusDesc')}</p>
+                  
+                  <table className="pricing-table">
+                    <thead>
+                      <tr>
+                        <th>{t('transfer.dest')}</th>
+                        <th>{t('transfer.priceMini')}</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>{t('transfer.destSharm')}</td>
+                        <td className="price-val">$30</td>
+                      </tr>
+                      <tr>
+                        <td>{t('transfer.destDahab')}</td>
+                        <td className="price-val">$90</td>
+                      </tr>
+                      <tr>
+                        <td>{t('transfer.destTaba')}</td>
+                        <td className="price-val">$140</td>
+                      </tr>
+                      <tr>
+                        <td>{t('transfer.destNuweiba')}</td>
+                        <td className="price-val">$150</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
             </div>
           </div>
 

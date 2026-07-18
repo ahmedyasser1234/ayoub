@@ -311,7 +311,20 @@
     "d5Desc": "Trasferimenti diretti al Parco Nazionale",
     "ctaTitle": "Hai bisogno di un trasferimento personalizzato?",
     "ctaDesc": "Contattaci con il tuo itinerario per un preventivo.",
-    "ctaBtn": "Prenota Trasporto"
+    "ctaBtn": "Prenota Trasporto",
+    "fleetTitle": "La Nostra Flotta e Prezzi",
+    "fleetDesc": "Scegli il veicolo perfetto per il tuo viaggio. Prezzi trasparenti per le destinazioni popolari.",
+    "privateCar": "Auto Privata (Berlina)",
+    "privateDesc": "Hyundai, Chery, Lancer o simili. Ideale per un massimo di 4 passeggeri.",
+    "minibus": "Minibus (Furgone)",
+    "minibusDesc": "Toyota Hiace. Posti a sedere comodi fino a 14 passeggeri.",
+    "dest": "Destinazione",
+    "pricePrivate": "Prezzo Auto Privata",
+    "priceMini": "Prezzo Minibus",
+    "destSharm": "All'interno di Sharm El Sheikh (Qualsiasi viaggio)",
+    "destDahab": "Dahab",
+    "destTaba": "Taba",
+    "destNuweiba": "Nuweiba"
   },
   "footer": {
     "slogan": "Se vieni a Sharm, non preoccuparti",

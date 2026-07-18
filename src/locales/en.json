@@ -311,7 +311,20 @@
     "d5Desc": "Direct transfers to the National Park",
     "ctaTitle": "Need a custom transfer?",
     "ctaDesc": "Contact us with your itinerary and group size for a personalized quote.",
-    "ctaBtn": "Book Transportation"
+    "ctaBtn": "Book Transportation",
+    "fleetTitle": "Our Premium Fleet & Pricing",
+    "fleetDesc": "Choose the perfect vehicle for your journey. We offer transparent pricing for popular destinations.",
+    "privateCar": "Private Car (Sedan)",
+    "privateDesc": "Hyundai, Chery, Lancer or similar. Perfect for up to 4 passengers.",
+    "minibus": "Minibus (Van)",
+    "minibusDesc": "Toyota Hiace. Comfortable seating for up to 14 passengers.",
+    "dest": "Destination",
+    "pricePrivate": "Private Car Price",
+    "priceMini": "Minibus Price",
+    "destSharm": "Inside Sharm El Sheikh (Any trip)",
+    "destDahab": "Dahab",
+    "destTaba": "Taba",
+    "destNuweiba": "Nuweiba"
   },
   "footer": {
     "slogan": "If you're coming to Sharm, don't worry",

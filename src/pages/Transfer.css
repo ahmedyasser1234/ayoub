@@ -75,3 +75,125 @@
   color: var(--text-muted);
   font-size: 1.1rem;
 }
+
+/* Fleet & Pricing Section */
+.fleet-pricing-section {
+  padding-top: 2rem;
+}
+
+.fleet-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.fleet-card {
+  background: var(--bg-card);
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.fleet-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+}
+
+.fleet-img-container {
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+  background: #111;
+}
+
+.fleet-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.fleet-card:hover .fleet-img {
+  transform: scale(1.05);
+}
+
+.fleet-info {
+  padding: 30px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.fleet-info h3 {
+  font-size: 1.5rem;
+  color: var(--secondary);
+  margin-bottom: 10px;
+}
+
+.fleet-desc {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  margin-bottom: 25px;
+  flex-grow: 1;
+}
+
+.pricing-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: auto;
+}
+
+.pricing-table th, 
+.pricing-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+html[lang="ar"] .pricing-table th, 
+html[lang="ar"] .pricing-table td {
+  text-align: right;
+}
+
+.pricing-table th {
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid rgba(249, 115, 22, 0.3);
+}
+
+.pricing-table td {
+  color: #e5e7eb;
+  font-size: 0.95rem;
+}
+
+.price-val {
+  font-weight: 700;
+  color: var(--secondary) !important;
+  font-size: 1.1rem !important;
+}
+
+.pricing-table tr:last-child td {
+  border-bottom: none;
+}
+
+.pricing-table tbody tr {
+  transition: background 0.2s;
+}
+
+.pricing-table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+@media (max-width: 768px) {
+  .fleet-grid {
+    grid-template-columns: 1fr;
+  }
+}
