@@ -41,7 +41,7 @@ const Home = () => {
           <div className="grid grid-2 tours-grid">
             {/* Safari Card */}
             <Link to="/safari" className="tour-card">
-              <div className="tour-image" style={{backgroundImage: "url(`${import.meta.env.BASE_URL}images/atv_desert_mountains.webp`)"}}>
+              <div className="tour-image" style={{backgroundImage: `url(${import.meta.env.BASE_URL}images/atv_desert_mountains.webp)`}}>
                 <div className="tour-overlay"></div>
                 <div className="tour-badges">
                   <div className="badge-featured"><Star size={14}/> {t('home.tours.safari.badge')}</div>
@@ -62,7 +62,7 @@ const Home = () => {
 
             {/* Transfer Card */}
             <Link to="/transfer" className="tour-card">
-              <div className="tour-image" style={{backgroundImage: "url(`${import.meta.env.BASE_URL}images/luxury_transfer.webp`)"}}>
+              <div className="tour-image" style={{backgroundImage: `url(${import.meta.env.BASE_URL}images/luxury_transfer.webp)`}}>
                 <div className="tour-overlay"></div>
                 <div className="tour-badges">
                   <div className="badge-featured"><Star size={14}/> {t('home.tours.transfer.badge')}</div>
