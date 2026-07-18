@@ -50,7 +50,8 @@
   letter-spacing: 1px;
 }
 
-.nav-links a:hover, .nav-links a.active-link {
+.nav-links a:hover,
+.nav-links a.active-link {
   color: var(--primary);
 }
 
@@ -64,7 +65,7 @@
   .menu-icon {
     display: block;
   }
-  
+
   .nav-links {
     position: absolute;
     top: 100%;
@@ -77,16 +78,18 @@
     clip-path: circle(0% at 100% 0);
     transition: all 0.5s ease-out;
   }
-  
+
   .nav-links.active {
     clip-path: circle(150% at 100% 0);
-    border-bottom: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
-  
+
   .nav-contact {
     margin-top: 10px;
   }
 }
 
-.logo-img { height: 50px; object-fit: contain; }
-
+.logo-img {
+  height: 50px !important;
+  object-fit: contain;
+}
