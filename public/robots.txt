@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ayoubsafari.netlify.app/sitemap.xml
+Sitemap: https://ayoubsafari.vercel.app/sitemap.xml
