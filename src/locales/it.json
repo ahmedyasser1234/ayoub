@@ -1,0 +1,357 @@
+{
+  "seo": {
+    "home": {
+      "title": "Le Migliori Escursioni Safari e Transfer a Sharm El Sheikh",
+      "description": "Prenota i migliori tour safari e transfer a Sharm El Sheikh e nel Sud Sinai. Prezzi speciali per quad ATV e cene beduine. Contattaci: 01027284402",
+      "keywords": "Transfer Sharm El Sheikh, Tour Safari, Escursioni Sharm, Agenzia viaggi Sharm, Escursioni Sud Sinai, Prenotazione ATV"
+    },
+    "safari": {
+      "title": "Tour Safari a Sharm El Sheikh",
+      "description": "Esplora il deserto di Sharm El Sheikh con le migliori escursioni safari, quad ATV, cene beduine e passeggiate in cammello. 01027284402",
+      "keywords": "Safari Sharm El Sheikh, ATV quad Sharm, Cena beduina Sharm, Safari Sud Sinai"
+    },
+    "transfer": {
+      "title": "Servizi di Trasferimento e Taxi a Sharm El Sheikh",
+      "description": "Trasporto turistico e limousine da e per l'aeroporto di Sharm El Sheikh e tutti gli hotel ai migliori prezzi. 01027284402",
+      "keywords": "Transfer Sharm El Sheikh, Navetta aeroporto Sharm, Taxi Sharm, Auto turistiche Sharm"
+    },
+    "gallery": {
+      "title": "Galleria Multimediale",
+      "description": "Guarda foto e video dei nostri fantastici tour safari e servizi di trasferimento a Sharm El Sheikh con Ayoub Safari. 01027284402",
+      "keywords": "Foto escursioni Sharm, Video safari Sharm, Foto transfer Sharm"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "safari": "Safari Tour",
+    "transfers": "Trasferimenti",
+    "gallery": "Galleria",
+    "bookNow": "Prenota Ora"
+  },
+  "hero": {
+    "title1": "VIVI LA",
+    "title2": "LIBERTÀ",
+    "subtitle": "GUIDA • ESPLORA • DIVERTITI",
+    "discoverSafari": "Scopri i Safari",
+    "bookTransfer": "Prenota Trasferimento"
+  },
+  "home": {
+    "badge": "Oltre 10 Anni di Esperienza",
+    "toursTitle": "Scegli tra i nostri migliori tour selezionati per un'esperienza indimenticabile",
+    "tours": {
+      "safari": {
+        "title": "ATV Safari & Cena Beduina",
+        "badge": "In Evidenza",
+        "price": "Da $25",
+        "duration": "5 ore",
+        "location": "Sharm El Sheikh"
+      },
+      "transfer": {
+        "title": "Trasferimento Aeroportuale VIP",
+        "badge": "In Evidenza",
+        "price": "Varia in base alla destinazione",
+        "duration": "Flessibile",
+        "location": "Sinai"
+      }
+    },
+    "reviews": {
+      "title": "Guarda le recensioni reali di Ayoub Safari su Facebook",
+      "subtitle": "Tutte le recensioni sulla nostra pagina ufficiale di Facebook provengono da ospiti reali con i loro nomi e foto — senza alcuna modifica.",
+      "btn": "Apri le recensioni su Facebook"
+    },
+    "whyUs": {
+      "title": "Perché Ayoub Safari?",
+      "c1Title": "10+ Anni di Esperienza",
+      "c1Desc": "Nell'organizzazione di tour ed escursioni",
+      "c2Title": "Sicurezza e Fiducia",
+      "c2Desc": "Team professionale e istruttori certificati",
+      "c3Title": "Migliori Prezzi",
+      "c3Desc": "Prezzi competitivi e offerte speciali",
+      "c4Title": "Supporto 24/7",
+      "c4Desc": "Siamo sempre qui per aiutarti"
+    },
+    "highlights": {
+      "h1Badge": "Tour in Evidenza",
+      "h1Title": "Avventure indimenticabili guidate da esperti locali",
+      "h1Desc": "Dallo snorkeling nelle barriere coralline ai safari nel deserto, le nostre guide hanno la passione per il luogo e conoscono i momenti e i posti migliori per ogni esperienza.",
+      "h1b1": "Piccoli gruppi privati",
+      "h1b2": "Attrezzatura professionale",
+      "h1b3": "Pasti e intrattenimento inclusi",
+      "h1Btn": "Esplora i Tour",
+      "h2Badge": "Esperienze Personalizzate",
+      "h2Title": "Il tuo viaggio come piace a te",
+      "h2Desc": "Viaggio in famiglia? Luna di miele? Viaggio d'affari? Gruppo di amici? Progettiamo ogni esperienza in base alle tue esigenze — dalla scelta delle date ai piccoli dettagli che fanno la differenza.",
+      "h2b1": "Adatto a famiglie e bambini",
+      "h2b2": "Sconti per gruppi",
+      "h2b3": "Guida che parla la tua lingua",
+      "h2Btn": "Progetta il tuo viaggio"
+    },
+    "steps": {
+      "title": "4 semplici passi per il viaggio dei tuoi sogni",
+      "subtitle": "Dalla scelta del viaggio al suo godimento — ogni passo è facile e chiaro.",
+      "c1Title": "Scegli il tuo viaggio",
+      "c1Desc": "Sfoglia tutti i viaggi, caratteristiche e prezzi",
+      "c2Title": "Seleziona la data",
+      "c2Desc": "Scegli il giorno adatto e il numero di viaggiatori",
+      "c3Title": "Prenota in sicurezza",
+      "c3Desc": "Paga in modo sicuro con più metodi",
+      "c4Title": "Goditi il viaggio",
+      "c4Desc": "Il nostro team è con te ad ogni passo, goditi il viaggio e lascia il resto a noi",
+      "badge1": "Cancellazione gratuita",
+      "badge2": "Conferma immediata",
+      "badge3": "Licenza legale"
+    },
+    "finalCta": {
+      "title": "Pronto per la tua prossima avventura?",
+      "subtitle": "Prenota il tuo viaggio oggi e goditi un'esperienza turistica indimenticabile a Sharm El Sheikh",
+      "btn": "Prenota Ora"
+    }
+  },
+  "safari": {
+    "title1": "Safari",
+    "title2": "Tour",
+    "subtitle": "L'ultima esperienza nel deserto a Sharm El Sheikh",
+    "introTitle": "Vivi l'Emozione",
+    "introDesc": "Unisciti a noi per un viaggio indimenticabile nel cuore del deserto del Sinai.",
+    "atvTitle": "Tour in ATV e Buggy",
+    "atvDesc": "Senti l'adrenalina mentre guidi i nostri ATV e buggy sulle dune.",
+    "adventuresTitle": "Avventure nel Deserto",
+    "adventuresDesc": "Esplora le valli nascoste e il paesaggio maestoso con le nostre guide esperte.",
+    "dinnerTitle": "Cena Beduina",
+    "dinnerDesc": "Concludi la giornata con una cena beduina sotto le stelle.",
+    "captureTitle": "Cattura il Momento",
+    "captureDesc": "Splendidi tour all'alba e al tramonto per foto indimenticabili.",
+    "includesTitle": "Cosa è incluso",
+    "inc1": "Prelievo e rientro in hotel",
+    "inc2": "Guide multilingue professionali",
+    "inc3": "Attrezzatura di sicurezza e briefing",
+    "inc4": "Acqua in bottiglia e tè beduino",
+    "bookBtn": "Prenota il tuo Safari Ora",
+    "tours": {
+      "single": {
+        "title": "Safari ATV Singolo",
+        "desc": "Guida il tuo ATV attraverso il bellissimo deserto del Sinai.",
+        "longDesc": "Vivi la massima libertà nel deserto sul tuo ATV personale. Questo tour è pensato per chi cerca forti emozioni e vuole esplorare le dune dorate del Sinai.",
+        "included": [
+          "Trasferimento da/per hotel",
+          "Guida professionale",
+          "Briefing e attrezzatura",
+          "ATV singolo",
+          "Pausa tè beduino nel deserto"
+        ],
+        "excluded": [
+          "Spese personali",
+          "Servizio fotografico",
+          "Sciarpa e occhiali (noleggiabili)"
+        ],
+        "highlights": [
+          "Giro in ATV nel deserto del Sinai",
+          "Sosta alle montagne dell'eco",
+          "Tè beduino tradizionale",
+          "Vista all'alba o al tramonto",
+          "Cena beduina facoltativa"
+        ],
+        "bring": [
+          "Vestiti comodi",
+          "Occhiali da sole",
+          "Fotocamera/Telefono",
+          "Sciarpa",
+          "Scarpe chiuse"
+        ]
+      },
+      "double": {
+        "title": "Safari ATV Doppio",
+        "desc": "Condividi l'emozione con un amico su un ATV per due persone.",
+        "longDesc": "Condividi l'emozione con un partner su un ATV doppio. Perfetto per coppie o amici.",
+        "included": [
+          "Trasferimento da/per hotel",
+          "Guida professionale",
+          "Briefing e attrezzatura",
+          "ATV per due",
+          "Pausa tè beduino"
+        ],
+        "excluded": [
+          "Spese personali",
+          "Servizio fotografico",
+          "Sciarpa e occhiali"
+        ],
+        "highlights": [
+          "Giro in ATV doppio nel deserto",
+          "Sosta alle montagne dell'eco",
+          "Tè beduino tradizionale",
+          "Vista all'alba o al tramonto",
+          "Cena beduina facoltativa"
+        ],
+        "bring": [
+          "Vestiti comodi",
+          "Occhiali da sole",
+          "Fotocamera/Telefono",
+          "Sciarpa",
+          "Scarpe chiuse"
+        ]
+      },
+      "buggy2": {
+        "title": "Safari in Buggy a 2 posti",
+        "desc": "Guida i nostri potenti buggy nel deserto side-by-side a 2 posti.",
+        "longDesc": "Prendi il controllo dei nostri potenti buggy a 2 posti. Offrono una guida comoda e sicura nel deserto.",
+        "included": [
+          "Trasferimento da/per hotel",
+          "Guida professionale",
+          "Briefing di sicurezza",
+          "Buggy a 2 posti",
+          "Tè beduino"
+        ],
+        "excluded": [
+          "Spese personali",
+          "Fotografie",
+          "Sciarpa e occhiali"
+        ],
+        "highlights": [
+          "Guida fuoristrada in buggy a 2 posti",
+          "Sosta alle montagne dell'eco",
+          "Tè beduino tradizionale",
+          "Vista all'alba o al tramonto"
+        ],
+        "bring": [
+          "Vestiti comodi",
+          "Occhiali da sole",
+          "Fotocamera/Telefono",
+          "Sciarpa",
+          "Scarpe chiuse"
+        ]
+      },
+      "buggy4": {
+        "title": "Safari in Buggy a 4 posti",
+        "desc": "Perfetto per famiglie o gruppi di amici in cerca di avventura insieme.",
+        "longDesc": "L'avventura di gruppo definitiva! I nostri buggy a 4 posti sono perfetti per famiglie o amici.",
+        "included": [
+          "Trasferimento da/per hotel",
+          "Guida",
+          "Briefing di sicurezza",
+          "Buggy a 4 posti",
+          "Tè beduino"
+        ],
+        "excluded": [
+          "Spese personali",
+          "Fotografie",
+          "Sciarpa e occhiali"
+        ],
+        "highlights": [
+          "Avventura in famiglia in buggy a 4 posti",
+          "Sosta alle montagne dell'eco",
+          "Tè beduino tradizionale",
+          "Vista all'alba o al tramonto"
+        ],
+        "bring": [
+          "Vestiti comodi",
+          "Occhiali da sole",
+          "Fotocamera/Telefono",
+          "Sciarpa",
+          "Scarpe chiuse"
+        ]
+      },
+      "dinner": {
+        "title": "Safari ATV, Cammello e Cena Beduina",
+        "desc": "L'ultima esperienza nel deserto che include un giro in ATV, passeggiata in cammello e una cena tradizionale sotto le stelle.",
+        "longDesc": "Un'esperienza completa nel deserto. Inizia con un giro in ATV, goditi una passeggiata in cammello e termina con una cena beduina tradizionale sotto le stelle.",
+        "included": [
+          "Trasferimenti",
+          "Guida",
+          "Giro in ATV",
+          "Giro in cammello",
+          "Cena beduina",
+          "Spettacolo orientale",
+          "Bevande analcoliche"
+        ],
+        "excluded": [
+          "Spese personali",
+          "Fotografie",
+          "Sciarpa e occhiali"
+        ],
+        "highlights": [
+          "Avventura in ATV",
+          "Passeggiata in cammello",
+          "Cena beduina e tè",
+          "Spettacolo orientale e di fuoco",
+          "Osservazione delle stelle"
+        ],
+        "bring": [
+          "Vestiti comodi",
+          "Occhiali da sole",
+          "Fotocamera",
+          "Sciarpa",
+          "Giacca leggera (per la sera)"
+        ]
+      }
+    }
+  },
+  "transfer": {
+    "title1": "Trasferimenti",
+    "title2": "VIP",
+    "subtitle": "Trasporti sicuri e affidabili",
+    "introTitle": "Il tuo viaggio inizia qui",
+    "introDesc": "Offriamo servizi di trasporto premium in tutta la penisola del Sinai.",
+    "f1Title": "Servizio Puntuale",
+    "f1Desc": "Disponibilità 24/7 con prelievi puntuali garantiti.",
+    "f2Title": "Sicuro e Protetto",
+    "f2Desc": "Veicoli completamente assicurati e autisti esperti.",
+    "f3Title": "Flotta Moderna",
+    "f3Desc": "Auto, minivan e autobus confortevoli e climatizzati.",
+    "destTitle1": "Destinazioni",
+    "destTitle2": "Popolari",
+    "d1Name": "Sharm El Sheikh",
+    "d1Desc": "Trasferimenti aeroportuali e in città",
+    "d2Name": "Dahab",
+    "d2Desc": "Viaggi confortevoli al Blue Hole",
+    "d3Name": "Nuweiba",
+    "d3Desc": "Viaggi panoramici lungo la costa",
+    "d4Name": "Taba",
+    "d4Desc": "Trasferimenti al confine",
+    "d5Name": "Ras Muhammad",
+    "d5Desc": "Trasferimenti diretti al Parco Nazionale",
+    "ctaTitle": "Hai bisogno di un trasferimento personalizzato?",
+    "ctaDesc": "Contattaci con il tuo itinerario per un preventivo.",
+    "ctaBtn": "Prenota Trasporto"
+  },
+  "footer": {
+    "slogan": "Se vieni a Sharm, non preoccuparti",
+    "quickLinks": "Link Rapidi",
+    "contactInfo": "Info Contatti",
+    "newsletterTitle": "Newsletter",
+    "newsletterDesc": "Iscriviti per ricevere nuovi viaggi e offerte",
+    "emailPlaceholder": "La tua email",
+    "subscribeBtn": "Iscriviti",
+    "reviewTitle": "Hai viaggiato con noi prima?",
+    "reviewBtn": "Lascia la tua recensione ora",
+    "rights": "Ayoub Safari. Tutti i diritti riservati.",
+    "partners": "I Nostri Partner"
+  },
+  "readMore": "Leggi di più",
+  "details": "Dettagli del Tour",
+  "overview": "Panoramica",
+  "includes": "Cosa è Incluso",
+  "excludes": "Cosa Non è Incluso",
+  "bookNowCard": "Prenota Ora",
+  "contactUs": "Contattaci",
+  "secureBooking": "Prenotazione Sicura",
+  "from": "Da",
+  "perPerson": "/ persona",
+  "whatYouWillSee": "Cosa Vedrai",
+  "includesAndExcludes": "Cosa è Incluso e Non Incluso",
+  "whatToBring": "Cosa Portare",
+  "exploreOtherTours": "Esplora Altri Tour",
+  "booking": {
+    "title": "Prenota il tuo tour",
+    "name": "Nome e cognome",
+    "phone": "Telefono / WhatsApp",
+    "date": "Data del tour",
+    "adults": "Adulti",
+    "children": "Bambini",
+    "notes": "Richieste speciali",
+    "fillRequired": "Si prega di inserire Nome, Telefono e Data."
+  },
+  "gallery": {
+    "subtitle": "Esplora le nostre indimenticabili avventure nel deserto e i trasferimenti premium",
+    "all": "Tutti"
+  }
+}

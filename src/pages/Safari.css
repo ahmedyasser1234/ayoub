@@ -1,0 +1,123 @@
+.page-header {
+  height: 40vh;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.page-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(10, 10, 10, 0.7);
+}
+
+.page-header .container {
+  position: relative;
+  z-index: 2;
+}
+
+.page-header h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.page-header h1 span {
+  color: var(--primary);
+}
+
+.page-header p {
+  font-size: 1.2rem;
+  color: var(--secondary);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.safari-header {
+  height: 100vh;
+  min-height: 600px;
+  background-image: url('/images/safari_hero_new.png');
+  margin-top: 0;
+}
+
+.safari-intro {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 60px;
+}
+
+.safari-intro h2 {
+  font-size: 2.5rem;
+  color: var(--secondary);
+  margin-bottom: 20px;
+}
+
+.safari-intro p {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+}
+
+.safari-card {
+  display: flex;
+  gap: 20px;
+  background: var(--bg-card);
+  padding: 30px;
+  border-radius: 15px;
+  border: 1px solid rgba(255,255,255,0.05);
+  transition: var(--transition);
+}
+
+.safari-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--primary);
+  box-shadow: 0 5px 20px rgba(249, 115, 22, 0.15);
+}
+
+.safari-card-icon {
+  background: rgba(249, 115, 22, 0.1);
+  padding: 15px;
+  border-radius: 12px;
+  height: fit-content;
+}
+
+.safari-card-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.safari-card-content p {
+  color: var(--text-muted);
+}
+
+.mb-4 { margin-bottom: 1.5rem; }
+.mt-5 { margin-top: 3rem; }
+
+.includes-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.include-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--bg-card);
+  padding: 15px 25px;
+  border-radius: 30px;
+  font-weight: 500;
+  border: 1px solid rgba(255,255,255,0.05);
+}
