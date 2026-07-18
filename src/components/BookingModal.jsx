@@ -43,7 +43,7 @@ const BookingModal = ({ isOpen, onClose, tourName }) => {
     if (method === 'whatsapp') {
       window.open(`https://wa.me/201027284402?text=${message}`, '_blank');
     } else if (method === 'telegram') {
-      window.open(`https://t.me/AyoubSafari?text=${message}`, '_blank');
+      window.open(`https://t.me/ahmed_midoo697?text=${message}`, '_blank');
     } else if (method === 'email') {
       // For email, we use standard URL encoding without %0A for newlines sometimes requires %0D%0A, 
       // but standard encodeURIComponent handles it better if we build it clean.
