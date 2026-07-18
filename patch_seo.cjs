@@ -10,22 +10,22 @@ const seoData = {
       home: {
         title: "أفضل مكتب رحلات سفاري وترانسفير في شرم الشيخ",
         description: "احجز أفضل رحلات السفاري والترانسفير في شرم الشيخ وجنوب سيناء. أسعار مميزة لرحلات البيتش باجي والعشاء البدوي. للتواصل والحجز: 01027284402",
-        keywords: "ترانسفير شرم الشيخ, رحلات سفاري, رحلات شرم الشيخ, مكتب رحلات في شرم, رحلات جنوب سيناء, حجز بيتش باجي, سفاري شرم"
+        keywords: "ترانسفير شرم الشيخ, رحلات سفاري شرم الشيخ, مكتب رحلات في شرم, رحلات جنوب سيناء, حجز بيتش باجي, سفاري شرم, توصيل مطار شرم الشيخ, تاكسي شرم, سياحة شرم الشيخ, عروض رحلات شرم, حجز رحلات شرم الشيخ, رحلات بحرية شرم, غطس شرم الشيخ"
       },
       safari: {
-        title: "رحلات سفاري شرم الشيخ",
-        description: "استكشف صحراء شرم الشيخ مع أفضل رحلات السفاري، بيتش باجي، عشاء بدوي، وركوب جمال. تواصل معنا: 01027284402",
-        keywords: "رحلات سفاري شرم الشيخ, بيتش باجي شرم, عشاء بدوي شرم الشيخ, سفاري جنوب سيناء"
+        title: "رحلات سفاري شرم الشيخ | بيتش باجي وعشاء بدوي",
+        description: "استكشف صحراء شرم الشيخ مع أفضل رحلات السفاري، بيتش باجي، عشاء بدوي، وركوب جمال وموتوسيكلات. تواصل معنا: 01027284402",
+        keywords: "رحلات سفاري شرم الشيخ, بيتش باجي شرم, عشاء بدوي شرم الشيخ, سفاري جنوب سيناء, موتوسيكلات شرم الشيخ, رحلات سفاري صحراوية, سفاري عائلية شرم, ركوب الجمال شرم الشيخ"
       },
       transfer: {
-        title: "خدمات نقل وترانسفير شرم الشيخ",
-        description: "سيارات ليموزين ونقل سياحي من وإلى مطار شرم الشيخ وجميع الفنادق بأفضل الأسعار. 01027284402",
-        keywords: "ترانسفير شرم الشيخ, توصيل مطار شرم الشيخ, تاكسي شرم الشيخ, سيارات سياحية شرم الشيخ"
+        title: "خدمات نقل وترانسفير شرم الشيخ | ليموزين المطار",
+        description: "سيارات ليموزين ونقل سياحي من وإلى مطار شرم الشيخ وجميع الفنادق بأفضل الأسعار. خدمة 24 ساعة. 01027284402",
+        keywords: "ترانسفير شرم الشيخ, توصيل مطار شرم الشيخ, تاكسي شرم الشيخ, سيارات سياحية شرم الشيخ, ليموزين مطار شرم, نقل فنادق شرم الشيخ, سيارات خاصة شرم الشيخ, حجز توصيل شرم"
       },
       gallery: {
-        title: "معرض الصور والفيديوهات",
+        title: "معرض الصور والفيديوهات | أيوب سفاري",
         description: "شاهد أمتع اللحظات لرحلات السفاري وخدمات الترانسفير في شرم الشيخ مع أيوب سفاري. 01027284402",
-        keywords: "صور رحلات شرم الشيخ, فيديوهات سفاري شرم الشيخ, صور ترانسفير شرم"
+        keywords: "صور رحلات شرم الشيخ, فيديوهات سفاري شرم الشيخ, صور ترانسفير شرم, ذكريات سفاري شرم, صور بيتش باجي"
       }
     }
   },
@@ -34,22 +34,22 @@ const seoData = {
       home: {
         title: "Best Safari & Transfer Excursions in Sharm El Sheikh",
         description: "Book the best safari tours and transfers in Sharm El Sheikh and South Sinai. Special prices for ATV buggies and Bedouin dinner. Call/WhatsApp: 01027284402",
-        keywords: "Sharm El Sheikh transfers, Safari tours, Sharm excursions, Tour office in Sharm, South Sinai trips, ATV booking, Sharm safari"
+        keywords: "Sharm El Sheikh transfers, Safari tours, Sharm excursions, Tour office in Sharm, South Sinai trips, ATV booking, Sharm safari, Sharm airport taxi, Sharm El Sheikh sightseeing, best tours in Sharm, private transfer Sharm"
       },
       safari: {
-        title: "Sharm El Sheikh Safari Tours",
-        description: "Explore the Sharm El Sheikh desert with the best safari trips, ATV buggies, Bedouin dinner, and camel riding. Contact us: 01027284402",
-        keywords: "Sharm El Sheikh safari, ATV buggy Sharm, Bedouin dinner Sharm, South Sinai safari"
+        title: "Sharm El Sheikh Safari Tours | ATV & Bedouin Dinner",
+        description: "Explore the Sharm El Sheikh desert with the best safari trips, ATV buggies, Bedouin dinner, stargazing and camel riding. Contact us: 01027284402",
+        keywords: "Sharm El Sheikh safari, ATV buggy Sharm, Bedouin dinner Sharm, South Sinai safari, desert safari Egypt, quad bike Sharm, camel ride Sharm, stargazing Sharm El Sheikh"
       },
       transfer: {
         title: "Sharm El Sheikh Transfer & Taxi Services",
-        description: "Limousine and tourist transport to and from Sharm El Sheikh airport and all hotels at the best prices. 01027284402",
-        keywords: "Sharm El Sheikh transfer, Sharm airport pickup, Sharm taxi, Tourist cars Sharm"
+        description: "Limousine and tourist transport to and from Sharm El Sheikh airport and all hotels at the best prices. 24/7 service. 01027284402",
+        keywords: "Sharm El Sheikh transfer, Sharm airport pickup, Sharm taxi, Tourist cars Sharm, private transfer Sharm El Sheikh, airport shuttle Sharm, hotel transfer Sharm"
       },
       gallery: {
-        title: "Media Gallery",
+        title: "Media Gallery | Ayoub Safari",
         description: "Watch photos and videos of our amazing safari tours and transfer services in Sharm El Sheikh with Ayoub Safari. 01027284402",
-        keywords: "Sharm excursions photos, Sharm safari videos, Transfer photos Sharm"
+        keywords: "Sharm excursions photos, Sharm safari videos, Transfer photos Sharm, ATV buggy gallery, Sharm memories"
       }
     }
   },
@@ -58,22 +58,22 @@ const seoData = {
       home: {
         title: "Le Migliori Escursioni Safari e Transfer a Sharm El Sheikh",
         description: "Prenota i migliori tour safari e transfer a Sharm El Sheikh e nel Sud Sinai. Prezzi speciali per quad ATV e cene beduine. Contattaci: 01027284402",
-        keywords: "Transfer Sharm El Sheikh, Tour Safari, Escursioni Sharm, Agenzia viaggi Sharm, Escursioni Sud Sinai, Prenotazione ATV"
+        keywords: "Transfer Sharm El Sheikh, Tour Safari, Escursioni Sharm, Agenzia viaggi Sharm, Escursioni Sud Sinai, Prenotazione ATV, navetta aeroporto Sharm, vacanze Sharm El Sheikh, escursioni deserto Sharm"
       },
       safari: {
-        title: "Tour Safari a Sharm El Sheikh",
-        description: "Esplora il deserto di Sharm El Sheikh con le migliori escursioni safari, quad ATV, cene beduine e passeggiate in cammello. 01027284402",
-        keywords: "Safari Sharm El Sheikh, ATV quad Sharm, Cena beduina Sharm, Safari Sud Sinai"
+        title: "Tour Safari a Sharm El Sheikh | Quad ATV e Cena Beduina",
+        description: "Esplora il deserto di Sharm El Sheikh con le migliori escursioni safari, quad ATV, cene beduine, osservazione delle stelle e passeggiate in cammello. 01027284402",
+        keywords: "Safari Sharm El Sheikh, ATV quad Sharm, Cena beduina Sharm, Safari Sud Sinai, safari nel deserto Egitto, giro in cammello Sharm, motorata nel deserto Sharm"
       },
       transfer: {
         title: "Servizi di Trasferimento e Taxi a Sharm El Sheikh",
-        description: "Trasporto turistico e limousine da e per l'aeroporto di Sharm El Sheikh e tutti gli hotel ai migliori prezzi. 01027284402",
-        keywords: "Transfer Sharm El Sheikh, Navetta aeroporto Sharm, Taxi Sharm, Auto turistiche Sharm"
+        description: "Trasporto turistico e limousine da e per l'aeroporto di Sharm El Sheikh e tutti gli hotel ai migliori prezzi. Servizio 24/7. 01027284402",
+        keywords: "Transfer Sharm El Sheikh, Navetta aeroporto Sharm, Taxi Sharm, Auto turistiche Sharm, trasferimento privato Sharm, navetta hotel Sharm"
       },
       gallery: {
-        title: "Galleria Multimediale",
+        title: "Galleria Multimediale | Ayoub Safari",
         description: "Guarda foto e video dei nostri fantastici tour safari e servizi di trasferimento a Sharm El Sheikh con Ayoub Safari. 01027284402",
-        keywords: "Foto escursioni Sharm, Video safari Sharm, Foto transfer Sharm"
+        keywords: "Foto escursioni Sharm, Video safari Sharm, Foto transfer Sharm, immagini quad Sharm, ricordi Sharm"
       }
     }
   },
@@ -82,22 +82,22 @@ const seoData = {
       home: {
         title: "Лучшие сафари и трансферы в Шарм-эль-Шейхе",
         description: "Забронируйте лучшие сафари-туры и трансферы в Шарм-эль-Шейхе и на Южном Синае. Специальные цены на квадроциклы и бедуинский ужин. Звоните: 01027284402",
-        keywords: "Трансферы в Шарм-эль-Шейхе, Сафари туры, Экскурсии в Шарме, Туристический офис в Шарме, Поездки на Южный Синай"
+        keywords: "Трансферы в Шарм-эль-Шейхе, Сафари туры, Экскурсии в Шарме, Туристический офис в Шарме, Поездки на Южный Синай, бронирование квадроциклов, такси в аэропорт Шарм, отдых в Шарм-эль-Шейхе, лучшие туры в Шарм"
       },
       safari: {
-        title: "Сафари туры в Шарм-эль-Шейхе",
-        description: "Исследуйте пустыню Шарм-эль-Шейха с лучшими сафари-поездками, квадроциклами, бедуинским ужином и катанием на верблюдах. 01027284402",
-        keywords: "Сафари Шарм-эль-Шейх, Квадроциклы Шарм, Бедуинский ужин Шарм, Сафари Южный Синай"
+        title: "Сафари туры в Шарм-эль-Шейхе | Квадроциклы и Бедуинский ужин",
+        description: "Исследуйте пустыню Шарм-эль-Шейха с лучшими сафари-поездками, квадроциклами, бедуинским ужином, наблюдением за звездами и катанием на верблюдах. 01027284402",
+        keywords: "Сафари Шарм-эль-Шейх, Квадроциклы Шарм, Бедуинский ужин Шарм, Сафари Южный Синай, сафари по пустыне Египет, катание на верблюдах Шарм, мотосафари Шарм"
       },
       transfer: {
         title: "Трансфер и такси в Шарм-эль-Шейхе",
-        description: "Лимузины и туристический транспорт в аэропорт Шарм-эль-Шейха и во все отели по лучшим ценам. 01027284402",
-        keywords: "Трансфер Шарм-эль-Шейх, Встреча в аэропорту Шарма, Такси Шарм"
+        description: "Лимузины и туристический транспорт в аэропорт Шарм-эль-Шейха и во все отели по лучшим ценам. Круглосуточно. 01027284402",
+        keywords: "Трансфер Шарм-эль-Шейх, Встреча в аэропорту Шарма, Такси Шарм, индивидуальный трансфер Шарм, трансфер в отель Шарм, туристические авто Шарм"
       },
       gallery: {
-        title: "Медиа Галерея",
+        title: "Медиа Галерея | Ayoub Safari",
         description: "Смотрите фотографии и видео наших удивительных сафари-туров и трансферов в Шарм-эль-Шейхе с Ayoub Safari. 01027284402",
-        keywords: "Фото экскурсий Шарм, Видео сафари Шарм, Фото трансфера Шарм"
+        keywords: "Фото экскурсий Шарм, Видео сафари Шарм, Фото трансфера Шарм, галерея квадроциклов, воспоминания Шарм"
       }
     }
   }
