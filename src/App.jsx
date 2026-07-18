@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation, Navigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -61,6 +61,8 @@ function AppContent() {
           <Route path="/tour/:id" element={<TourDetails />} />
           <Route path="/transfer" element={<Transfer />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/gallary" element={<Navigate to="/gallery" replace />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </main>
       <Footer />
