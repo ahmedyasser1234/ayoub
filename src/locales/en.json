@@ -324,7 +324,34 @@
     "destSharm": "Inside Sharm El Sheikh (Any trip)",
     "destDahab": "Dahab",
     "destTaba": "Taba",
-    "destNuweiba": "Nuweiba"
+    "destNuweiba": "Nuweiba",
+    "priceHead": "Price",
+    "cars": {
+      "hyundai": {
+        "name": "Hyundai Sedan",
+        "desc": "Comfortable sedan. Perfect for up to 4 passengers."
+      },
+      "chery": {
+        "name": "Chery Sedan",
+        "desc": "Modern and efficient. Perfect for up to 4 passengers."
+      },
+      "lancer": {
+        "name": "Mitsubishi Lancer",
+        "desc": "Reliable and spacious. Perfect for up to 4 passengers."
+      },
+      "corolla": {
+        "name": "Toyota Corolla",
+        "desc": "Classic comfort. Perfect for up to 4 passengers."
+      },
+      "nissan": {
+        "name": "Nissan Sedan",
+        "desc": "Smooth ride. Perfect for up to 4 passengers."
+      },
+      "minibus": {
+        "name": "Toyota Hiace Minibus",
+        "desc": "Comfortable seating for up to 14 passengers."
+      }
+    }
   },
   "footer": {
     "slogan": "If you're coming to Sharm, don't worry",

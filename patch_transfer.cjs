@@ -8,62 +8,74 @@ const transferData = {
   en: {
     fleetTitle: "Our Premium Fleet & Pricing",
     fleetDesc: "Choose the perfect vehicle for your journey. We offer transparent pricing for popular destinations.",
-    privateCar: "Private Car (Sedan)",
-    privateDesc: "Hyundai, Chery, Mitsubishi Lancer, Toyota Corolla, Nissan. Perfect for up to 4 passengers.",
-    minibus: "Minibus (Van)",
-    minibusDesc: "Toyota Hiace. Comfortable seating for up to 14 passengers.",
     dest: "Destination",
-    pricePrivate: "Private Car Price",
-    priceMini: "Minibus Price",
+    priceHead: "Price",
     destSharm: "Inside Sharm El Sheikh (Any trip)",
     destDahab: "Dahab",
     destTaba: "Taba",
-    destNuweiba: "Nuweiba"
+    destNuweiba: "Nuweiba",
+    cars: {
+      hyundai: { name: "Hyundai Sedan", desc: "Comfortable sedan. Perfect for up to 4 passengers." },
+      chery: { name: "Chery Sedan", desc: "Modern and efficient. Perfect for up to 4 passengers." },
+      lancer: { name: "Mitsubishi Lancer", desc: "Reliable and spacious. Perfect for up to 4 passengers." },
+      corolla: { name: "Toyota Corolla", desc: "Classic comfort. Perfect for up to 4 passengers." },
+      nissan: { name: "Nissan Sedan", desc: "Smooth ride. Perfect for up to 4 passengers." },
+      minibus: { name: "Toyota Hiace Minibus", desc: "Comfortable seating for up to 14 passengers." }
+    }
   },
   ar: {
     fleetTitle: "أسطول سياراتنا وقائمة الأسعار",
     fleetDesc: "اختر السيارة المناسبة لرحلتك. نقدم أسعاراً واضحة لأشهر الوجهات.",
-    privateCar: "سيارة خاصة (ملاكي)",
-    privateDesc: "هيونداي، شيري، ميتسوبيشي لانسر، تويوتا كورولا، نيسان. مثالية حتى 4 ركاب.",
-    minibus: "ميكروباص (فان)",
-    minibusDesc: "تويوتا هاي ايس. مقاعد مريحة وتتسع حتى 14 راكباً.",
     dest: "الوجهة",
-    pricePrivate: "سعر الملاكي",
-    priceMini: "سعر الميكروباص",
+    priceHead: "السعر",
     destSharm: "داخل شرم الشيخ (أي مشوار)",
     destDahab: "دهب",
     destTaba: "طابا",
-    destNuweiba: "نويبع"
+    destNuweiba: "نويبع",
+    cars: {
+      hyundai: { name: "هيونداي (ملاكي)", desc: "سيارة سيدان مريحة. مثالية حتى 4 ركاب." },
+      chery: { name: "شيري (ملاكي)", desc: "حديثة واقتصادية. مثالية حتى 4 ركاب." },
+      lancer: { name: "ميتسوبيشي لانسر", desc: "اعتمادية وواسعة. مثالية حتى 4 ركاب." },
+      corolla: { name: "تويوتا كورولا", desc: "راحة كلاسيكية. مثالية حتى 4 ركاب." },
+      nissan: { name: "نيسان (ملاكي)", desc: "رحلة سلسة ومريحة. مثالية حتى 4 ركاب." },
+      minibus: { name: "تويوتا هاي ايس (ميكروباص)", desc: "مقاعد مريحة وتتسع حتى 14 راكباً." }
+    }
   },
   ru: {
     fleetTitle: "Наш Автопарк и Цены",
     fleetDesc: "Выберите идеальный автомобиль для вашей поездки. Прозрачные цены на популярные направления.",
-    privateCar: "Легковой автомобиль",
-    privateDesc: "Hyundai, Chery, Mitsubishi Lancer, Toyota Corolla, Nissan. До 4 пассажиров.",
-    minibus: "Микроавтобус",
-    minibusDesc: "Toyota Hiace. Комфортабельный салон до 14 пассажиров.",
     dest: "Направление",
-    pricePrivate: "Цена (Легковой)",
-    priceMini: "Цена (Микроавтобус)",
-    destSharm: "Внутри Шарм-эль-Шейха (любая поездка)",
+    priceHead: "Цена",
+    destSharm: "Внутри Шарм-эль-Шейха",
     destDahab: "Дахаб",
     destTaba: "Таба",
-    destNuweiba: "Нувейба"
+    destNuweiba: "Нувейба",
+    cars: {
+      hyundai: { name: "Hyundai (Седан)", desc: "Комфортный седан. До 4 пассажиров." },
+      chery: { name: "Chery (Седан)", desc: "Современный седан. До 4 пассажиров." },
+      lancer: { name: "Mitsubishi Lancer", desc: "Надежный и просторный. До 4 пассажиров." },
+      corolla: { name: "Toyota Corolla", desc: "Классический комфорт. До 4 пассажиров." },
+      nissan: { name: "Nissan (Седан)", desc: "Плавный ход. До 4 пассажиров." },
+      minibus: { name: "Toyota Hiace (Микроавтобус)", desc: "Комфортабельный салон до 14 пассажиров." }
+    }
   },
   it: {
     fleetTitle: "La Nostra Flotta e Prezzi",
     fleetDesc: "Scegli il veicolo perfetto per il tuo viaggio. Prezzi trasparenti per le destinazioni popolari.",
-    privateCar: "Auto Privata (Berlina)",
-    privateDesc: "Hyundai, Chery, Mitsubishi Lancer, Toyota Corolla, Nissan. Ideale per un massimo di 4 passeggeri.",
-    minibus: "Minibus (Furgone)",
-    minibusDesc: "Toyota Hiace. Posti a sedere comodi fino a 14 passeggeri.",
     dest: "Destinazione",
-    pricePrivate: "Prezzo Auto Privata",
-    priceMini: "Prezzo Minibus",
-    destSharm: "All'interno di Sharm El Sheikh (Qualsiasi viaggio)",
+    priceHead: "Prezzo",
+    destSharm: "All'interno di Sharm El Sheikh",
     destDahab: "Dahab",
     destTaba: "Taba",
-    destNuweiba: "Nuweiba"
+    destNuweiba: "Nuweiba",
+    cars: {
+      hyundai: { name: "Hyundai (Berlina)", desc: "Berlina confortevole. Ideale per un massimo di 4 passeggeri." },
+      chery: { name: "Chery (Berlina)", desc: "Moderna ed efficiente. Ideale per un massimo di 4 passeggeri." },
+      lancer: { name: "Mitsubishi Lancer", desc: "Affidabile e spaziosa. Ideale per un massimo di 4 passeggeri." },
+      corolla: { name: "Toyota Corolla", desc: "Comfort classico. Ideale per un massimo di 4 passeggeri." },
+      nissan: { name: "Nissan (Berlina)", desc: "Guida fluida. Ideale per un massimo di 4 passeggeri." },
+      minibus: { name: "Toyota Hiace (Minibus)", desc: "Posti a sedere comodi fino a 14 passeggeri." }
+    }
   }
 };
 
@@ -81,17 +93,13 @@ files.forEach(file => {
     
     fileContent.transfer.fleetTitle = transferData[lang].fleetTitle;
     fileContent.transfer.fleetDesc = transferData[lang].fleetDesc;
-    fileContent.transfer.privateCar = transferData[lang].privateCar;
-    fileContent.transfer.privateDesc = transferData[lang].privateDesc;
-    fileContent.transfer.minibus = transferData[lang].minibus;
-    fileContent.transfer.minibusDesc = transferData[lang].minibusDesc;
     fileContent.transfer.dest = transferData[lang].dest;
-    fileContent.transfer.pricePrivate = transferData[lang].pricePrivate;
-    fileContent.transfer.priceMini = transferData[lang].priceMini;
+    fileContent.transfer.priceHead = transferData[lang].priceHead;
     fileContent.transfer.destSharm = transferData[lang].destSharm;
     fileContent.transfer.destDahab = transferData[lang].destDahab;
     fileContent.transfer.destTaba = transferData[lang].destTaba;
     fileContent.transfer.destNuweiba = transferData[lang].destNuweiba;
+    fileContent.transfer.cars = transferData[lang].cars;
     
     fs.writeFileSync(filePath, JSON.stringify(fileContent, null, 2));
     console.log(`Updated ${file}`);

@@ -321,10 +321,37 @@
     "dest": "Destinazione",
     "pricePrivate": "Prezzo Auto Privata",
     "priceMini": "Prezzo Minibus",
-    "destSharm": "All'interno di Sharm El Sheikh (Qualsiasi viaggio)",
+    "destSharm": "All'interno di Sharm El Sheikh",
     "destDahab": "Dahab",
     "destTaba": "Taba",
-    "destNuweiba": "Nuweiba"
+    "destNuweiba": "Nuweiba",
+    "priceHead": "Prezzo",
+    "cars": {
+      "hyundai": {
+        "name": "Hyundai (Berlina)",
+        "desc": "Berlina confortevole. Ideale per un massimo di 4 passeggeri."
+      },
+      "chery": {
+        "name": "Chery (Berlina)",
+        "desc": "Moderna ed efficiente. Ideale per un massimo di 4 passeggeri."
+      },
+      "lancer": {
+        "name": "Mitsubishi Lancer",
+        "desc": "Affidabile e spaziosa. Ideale per un massimo di 4 passeggeri."
+      },
+      "corolla": {
+        "name": "Toyota Corolla",
+        "desc": "Comfort classico. Ideale per un massimo di 4 passeggeri."
+      },
+      "nissan": {
+        "name": "Nissan (Berlina)",
+        "desc": "Guida fluida. Ideale per un massimo di 4 passeggeri."
+      },
+      "minibus": {
+        "name": "Toyota Hiace (Minibus)",
+        "desc": "Posti a sedere comodi fino a 14 passeggeri."
+      }
+    }
   },
   "footer": {
     "slogan": "Se vieni a Sharm, non preoccuparti",
