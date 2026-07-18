@@ -19,27 +19,27 @@ const TourDetails = () => {
   // Safari tours mock database (to map images and base info, texts are from i18n)
   const safariToursData = {
     single: {
-      image: '/images/safari_single.webp',
+      image: `${import.meta.env.BASE_URL}images/safari_single.webp`,
       duration: '3 hours',
       price: '600'
     },
     double: {
-      image: '/images/safari_double.webp',
+      image: `${import.meta.env.BASE_URL}images/safari_double.webp`,
       duration: '3 hours',
       price: '700'
     },
     buggy2: {
-      image: '/images/safari_buggy2.webp',
+      image: `${import.meta.env.BASE_URL}images/safari_buggy2.webp`,
       duration: '4 hours',
       price: '1200'
     },
     buggy4: {
-      image: '/images/safari_buggy4.webp',
+      image: `${import.meta.env.BASE_URL}images/safari_buggy4.webp`,
       duration: '4 hours',
       price: '1600'
     },
     dinner: {
-      image: '/images/safari_dinner.webp',
+      image: `${import.meta.env.BASE_URL}images/safari_dinner.webp`,
       duration: '6 hours',
       price: '900'
     }
@@ -68,7 +68,7 @@ const TourDetails = () => {
         keywords={t('seo.safari.keywords')} 
         image={tourData.image} 
       />
-      <div className="tour-page-bg" style={{ backgroundImage: `url('/images/safari_hero_background.webp')` }}></div>
+      <div className="tour-page-bg" style={{ backgroundImage: `url('${import.meta.env.BASE_URL}images/safari_hero_background.webp')` }}></div>
       {/* Hero Section */}
       <div className="tour-hero" style={{ backgroundImage: `url('${tourData.image}')` }}>
         <div className="tour-hero-content container">
